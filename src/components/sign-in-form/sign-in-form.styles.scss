@@ -1,0 +1,21 @@
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 380px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+span {
+    color: white;
+}
+
+
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}

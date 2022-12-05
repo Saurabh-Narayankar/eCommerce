@@ -1,0 +1,62 @@
+.payment-form-container {
+    height: 300px;
+    display: flex;
+    width: 20rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .form-container {
+        border: 2px solid white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: stretch;
+
+        h2 {
+            text-align: center;
+        }
+
+        .card-details {
+            color: white;
+            width: 500px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .payment-form-container {
+        height: 300px;
+        display: flex;
+        width: 20rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        .form-container {
+            border: 2px solid white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 10px 20px;
+            justify-content: space-between;
+            align-items: stretch;
+    
+            h2 {
+                text-align: center;
+            }
+    
+            .card-details {
+                color: white;
+                width: 300px;
+            }
+        }
+
+    }
+
+}

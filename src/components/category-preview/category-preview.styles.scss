@@ -1,0 +1,32 @@
+.category-preview-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+  
+    .title {
+      font-size: 27px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+    }
+  
+    .preview {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: space-between; 
+    }
+  }
+  
+
+@media only screen and (max-width: 1000px) {
+  .category-preview-container {
+    .preview {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: space-between; 
+    }
+  }
+    
+}
